@@ -15,17 +15,6 @@ export default function ToggleTheme() {
   };
 
   return (
-    // <div>
-    //   <input type="checkbox" className="sr-only" onChange={handleCheckBoxChange} />
-    //   <span className={`slider mx-4 flex h-8 w-14 items-center rounded-full bg-slate-300 p-1 shadow-inner duration-200 ${
-    //           isChecked ? 'bg-primary' : 'bg-dark'
-    //         }`}>
-    //     <span className={`dot h-6 w-6 rounded-full bg-zinc-50 duration-200  transition ${
-    //           isChecked ? 'translate-x-full' : ''
-    //         }`}></span>
-    //   </span>
-    // </div>
-
     <>
       <label className="flex cursor-pointer select-none items-center">
         <div className="relative">
