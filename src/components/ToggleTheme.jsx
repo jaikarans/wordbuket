@@ -15,7 +15,7 @@ export default function ToggleTheme() {
   };
 
   return (
-    <>
+    <div className="ml-auto">
       <label className="flex cursor-pointer select-none items-center">
         <div className="relative">
           <input
@@ -36,6 +36,6 @@ export default function ToggleTheme() {
           ></div>
         </div>
       </label>
-    </>
+    </div>
   );
 }
